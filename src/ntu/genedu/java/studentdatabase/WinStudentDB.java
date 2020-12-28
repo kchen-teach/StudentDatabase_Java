@@ -1,3 +1,4 @@
+package ntu.genedu.java.studentdatabase;
 import java.awt.EventQueue;
 
 import javax.swing.JFrame;
@@ -158,6 +159,9 @@ public class WinStudentDB {
 
 	}
 
+	/**
+	 * 當按下「新增」按鈕時執行的程式
+	 */
 	protected void btnAddStudent_Click() {
 		// 取得視窗資料
 		String strName = this.txtName.getText();
@@ -225,9 +229,13 @@ public class WinStudentDB {
 		}
 	}
 
-	// 顯示訊息窗
-	protected void showMessage(String str, String message) {
-		String strMessage = str + "成績輸入錯誤，您輸入成：" + message;
-		JOptionPane.showMessageDialog(this.frmStudenDB, strMessage, str + "成績錯誤", JOptionPane.ERROR_MESSAGE);
+	/**
+	 * 顯示訊息窗
+	 * @param course 課程名稱
+	 * @param message 要顯示的訊息
+	 */
+	protected void showMessage(String course, String message) {
+		String strMessage = course + "成績輸入錯誤，您輸入成：" + message;
+		JOptionPane.showMessageDialog(this.frmStudenDB, strMessage, course + "成績錯誤", JOptionPane.ERROR_MESSAGE);
 	}
 }

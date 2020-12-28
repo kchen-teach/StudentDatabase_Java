@@ -1,11 +1,11 @@
+package ntu.genedu.java.studentdatabase;
 /**
  * 學生類別
- * 
- * v1.1.0 增加學生名姓 v2.0.0 增加成績超過範圍的 Exception
- * 
+ *  
  * @author kChen
- * @version v1.1.0
- * @version v2.0.0
+ * @version v1.0.0 可記錄國文、英文和數學成績，並且能計算總分與平均
+ * @version v1.1.0 增加學生姓名
+ * @version v2.0.0 增加成績超過0-100分範圍的 Exception 處理
  */
 public class Student {
 	// Field 欄位

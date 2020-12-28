@@ -1,4 +1,10 @@
+package ntu.genedu.java.studentdatabase;
 
+/**
+ * 非法的數學成績例外
+ * @author kChen
+ *
+ */
 public class IllegalMathScoreException extends IllegalScoreException {
 
 	public IllegalMathScoreException(String message) {

@@ -1,3 +1,4 @@
+package ntu.genedu.java.studentdatabase;
 import java.util.ArrayList;
 
 /**
